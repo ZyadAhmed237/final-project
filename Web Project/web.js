@@ -1,4 +1,4 @@
-// main.js
+
 function loadStudents() {
     fetch('students.php')
         .then(res => res.json())
