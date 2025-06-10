@@ -4,7 +4,7 @@ $servername = "localhost";
 
 $username = "root";
 
-$password = "123456"; // فارغ لأن الافتراضي في XAMPP كده
+$password = "123456";
 
 $dbname = "university";
 
@@ -19,7 +19,6 @@ if ($conn->connect_error) {
 }
 
 
-// استعلام لجلب بيانات الطلاب
 
 $sql = "SELECT * FROM Student";
 
